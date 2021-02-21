@@ -1,0 +1,119 @@
+* {
+  font-family: "arial", sans-serif;
+  font-size: 13px;
+  color: rgb(80, 80, 80);
+  margin: 0;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.nav_bar {
+  margin-top: 1rem;
+  align-items: center;
+  display: flex;
+  /* background-color: rgb(178, 178, 184); */
+  padding: 0.1rem 0.5rem;
+}
+.nav_item {
+  margin-left: 1.5rem;
+  /* background-color: pink; */
+  display: flex;
+}
+.nav_item img {
+  opacity: 0.6;
+}
+.nav_item img:hover {
+  opacity: 1;
+}
+a:hover {
+  text-decoration: underline;
+}
+.nav_item:nth-of-type(3) {
+  /* background-color: crimson; */
+  margin-left: auto;
+}
+#sign_in {
+  padding: 0px;
+  background-color: #4c8bf5;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  text-decoration: none;
+}
+#logo_container {
+  /* background-color: tomato; */
+  display: flex;
+}
+#logo {
+  display: flex;
+  /* background-color: yellow; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12rem;
+  padding-bottom: 1rem;
+}
+#searchbar {
+  display: flex;
+  /* background-color: magenta; */
+  width: 27rem;
+  padding: 1.1rem 5rem;
+  border: 0.1rem solid lightgray;
+  border-radius: 10rem;
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/the_odin_project/google-homepage/img/white-search-icon-png-18.jpg);
+  background-size: 4%;
+  background-repeat: no-repeat;
+  background-position: 2% center;
+  font-size: 1.1rem;
+  color: black;
+}
+#searchbar:hover {
+  box-shadow: 0 0 0.3rem 0.3rem #eee;
+}
+#searchbar:focus {
+  outline: none;
+}
+#search_container {
+  display: flex;
+  /* background-color: thistle; */
+  justify-content: center;
+}
+.search_button {
+  border: none;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 0.9rem 1.3rem;
+  background-color: #f2f2f2;
+  margin: 0 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+}
+.search_button:hover {
+  box-shadow: 0 0 0.2rem #4a4a4a;
+}
+footer {
+  background-color: #f2f2f2;
+  bottom: 0;
+  height: 2.5rem;
+  /* flex-grow: 1; */
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  margin-top: auto;
+}
+.footer_link {
+  display: flex;
+  margin-left: 1.5rem;
+  font-size: 1.1rem;
+}
+.footer_link:nth-of-type(4) {
+  /* background-color: crimson; */
+  margin-left: auto;
+}
